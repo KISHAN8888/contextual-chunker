@@ -1,3 +1,4 @@
 .env
 contextual_chunker.egg-info/
 dist/
+.pypirc
