@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="document-chunker",
+    name="contextual-chunker",
     version="0.1.0",
     author="Kishan Tripathi",
     author_email="kishantripathi888@gmail.com",
     description="A comprehensive document chunking library with context generation for RAG applications",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/document-chunker",
+    url="https://github.com/KISHAN8888/contextual-chunker",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -29,11 +29,11 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "openai",
-        "tqdm",
-        "python-dotenv",
-        "PyPDF2",
-        "PyMuPDF",
+        "openai>=1.0.0",
+        "tqdm>=4.64.0",
+        "python-dotenv>=0.19.0",
+        "PyPDF2>=3.0.0",
+        "PyMuPDF>=1.20.0",
     ],
     extras_require={
         "dev": [
@@ -44,7 +44,7 @@ setup(
     },
     entry_points={
         "console_scripts": [
-            "document-chunker=document_chunker.cli:main",
+            "contextual-chunker=contextual_chunker.cli:main",
         ],
     },
 )

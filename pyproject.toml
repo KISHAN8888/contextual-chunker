@@ -42,9 +42,9 @@ dev = [
 ]
 
 [project.scripts]
- = "contextual_chunking.cli:main"
+contextual-chunker = "contextual_chunker.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/yourusername/document-chunker"
-Repository = "https://github.com/yourusername/document-chunker.git"
-Issues = "https://github.com/yourusername/document-chunker/issues"
+Homepage = "https://github.com/KISHAN8888/contextual-chunker"
+Repository = "https://github.com/KISHAN8888/contextual-chunker.git"
+Issues = "https://github.com/KISHAN8888/contextual-chunker/issues"

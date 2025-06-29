@@ -1,5 +1,5 @@
 """
-Document Chunker - A comprehensive document chunking library for RAG applications
+Contextual Chunker - A comprehensive document chunking library for RAG applications
 """
 
 from .chunker import (
@@ -17,8 +17,8 @@ from .chunker import (
 )
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__author__ = "Kishan Tripathi"
+__email__ = "kishantripathi888@gmail.com"
 
 __all__ = [
     "DocumentChunker",

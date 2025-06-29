@@ -4,7 +4,7 @@
 
 set -e
 
-echo "Building document-chunker package..."
+echo "Building contextual-chunker package..."
 
 # Clean previous builds
 rm -rf dist/ build/ *.egg-info/
